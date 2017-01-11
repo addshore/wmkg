@@ -1,0 +1,7 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "addwiki/mediawiki-api-base": "~2.2",
+        "byjg/sparqllib": "~1.0"
+    }
+}
