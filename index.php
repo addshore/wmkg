@@ -127,7 +127,7 @@ WHERE
 			'kg' => 'http://g.co/kg',
 		],
 		'@type' => 'ItemList',
-		'itemListElement' => [
+		'itemListElement' => [[
 			'@type' => 'EntitySearchResult',
 			'result' => [
 				'@id' => $entityId,
@@ -183,7 +183,7 @@ WHERE
 				],
 				'url' => $sparqlArray['url'],
 			],
-		],
+		]],
 	];
 
 	if ( $indent ) {
